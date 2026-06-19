@@ -90,6 +90,7 @@ function autoRefresh() {
     location.reload();
   }, 8000);
 }
+
 rockBtn.addEventListener("click", () => playRound("rock"));
 paperBtn.addEventListener("click", () => playRound("paper"));
 scissorsBtn.addEventListener("click", () => playRound("scissors"));
